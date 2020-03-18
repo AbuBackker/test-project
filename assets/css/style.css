@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700,900&display=swap');
+
+/* Banner start */
+
+.banner{
+    width:100%;
+    height:100vh;
+    background-image: url('./../images/bg1.png');
+    display:flex;
+    align-items: center;
+}
+
+
+.banner .subtitle {
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    color: rgb(0, 142, 214);
+    text-transform: uppercase;
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  
+  .banner .title {
+    font-size:48px;
+    font-family: "Poppins",sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 38px;
+  }
+
+  .banner .content{      
+    font-size:18px;
+    font-family: "Poppins",sans-serif;
+    color: #9999;
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 64px;
+  }
+
+
+  .banner .btn-primary {
+    border-radius: 3px;
+    background-color: rgb(0, 142, 214);
+    box-shadow: 0px 0px 3px 0px rgba(3, 3, 3, 0.1);
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .banner .btn-info{
+        border:1px solid #fff;
+        border-radius: 3px;
+        background-color: rgba(0, 142, 214, 0);
+        width: 164px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            font-size: 14px;
+            font-family: "Poppins",sans-serif;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            text-align: center;
+            margin-left: 26px;
+          
+  }
+
+  /* Banner end */
+
+  /* Section heading start */
+  .section-heading{
+    position: relative;
+  }
+.section-heading .subtitle {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 142, 214);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.7;
+  }
+
+  .section-heading .title {
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color:#111;
+    line-height: 1.7;
+  }
+
+  .section-heading:before{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background: rgb(0, 142, 214);
+    position: absolute;
+    bottom: -28px;
+    left: 46%;
+  }
+
+  .section-heading:after{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background: rgb(0, 142, 214);
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+  }
+  /* Section heading end */
+
+  .py-70{
+    padding-top:70px;
+    padding-bottom: 70px;;
+  }
